@@ -20,7 +20,6 @@
 		A15151401E7604BE00FDDAB1 /* WeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A151512A1E7604BE00FDDAB1 /* WeatherManager.m */; };
 		A15151411E7604BE00FDDAB1 /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A151512E1E7604BE00FDDAB1 /* CityCell.m */; };
 		A15151421E7604BE00FDDAB1 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151321E7604BE00FDDAB1 /* HeaderView.m */; };
-		A15151431E7604BE00FDDAB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15151341E7604BE00FDDAB1 /* Info.plist */; };
 		A15151441E7604BE00FDDAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151351E7604BE00FDDAB1 /* main.m */; };
 		A1D8103C1E74A8BE001B85E5 /* libPods-Elilink Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE8E8E4B8F6CDAF434509A5 /* libPods-Elilink Assignment.a */; };
 /* End PBXBuildFile section */
@@ -298,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A15151391E7604BE00FDDAB1 /* Main.storyboard in Resources */,
-				A15151431E7604BE00FDDAB1 /* Info.plist in Resources */,
 				A151513B1E7604BE00FDDAB1 /* Cities.json in Resources */,
 				A15151381E7604BE00FDDAB1 /* LaunchScreen.storyboard in Resources */,
 				A15151371E7604BE00FDDAB1 /* Assets.xcassets in Resources */,
