@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1D80FE11E747C84001B85E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D80FE01E747C84001B85E5 /* main.m */; };
-		A1D80FE41E747C84001B85E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D80FE31E747C84001B85E5 /* AppDelegate.m */; };
-		A1D80FE71E747C84001B85E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D80FE61E747C84001B85E5 /* ViewController.m */; };
-		A1D80FEA1E747C84001B85E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D80FE81E747C84001B85E5 /* Main.storyboard */; };
-		A1D80FEC1E747C84001B85E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D80FEB1E747C84001B85E5 /* Assets.xcassets */; };
-		A1D80FEF1E747C84001B85E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D80FED1E747C84001B85E5 /* LaunchScreen.storyboard */; };
+		A15151361E7604BE00FDDAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151101E7604BE00FDDAB1 /* AppDelegate.m */; };
+		A15151371E7604BE00FDDAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15151131E7604BE00FDDAB1 /* Assets.xcassets */; };
+		A15151381E7604BE00FDDAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15151141E7604BE00FDDAB1 /* LaunchScreen.storyboard */; };
+		A15151391E7604BE00FDDAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15151161E7604BE00FDDAB1 /* Main.storyboard */; };
+		A151513A1E7604BE00FDDAB1 /* CitiesController.m in Sources */ = {isa = PBXBuildFile; fileRef = A151511C1E7604BE00FDDAB1 /* CitiesController.m */; };
+		A151513B1E7604BE00FDDAB1 /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = A151511E1E7604BE00FDDAB1 /* Cities.json */; };
+		A151513C1E7604BE00FDDAB1 /* City+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151211E7604BE00FDDAB1 /* City+CoreDataClass.m */; };
+		A151513D1E7604BE00FDDAB1 /* City+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151231E7604BE00FDDAB1 /* City+CoreDataProperties.m */; };
+		A151513E1E7604BE00FDDAB1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15151241E7604BE00FDDAB1 /* Model.xcdatamodeld */; };
+		A151513F1E7604BE00FDDAB1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151271E7604BE00FDDAB1 /* DataManager.m */; };
+		A15151401E7604BE00FDDAB1 /* WeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A151512A1E7604BE00FDDAB1 /* WeatherManager.m */; };
+		A15151411E7604BE00FDDAB1 /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A151512E1E7604BE00FDDAB1 /* CityCell.m */; };
+		A15151421E7604BE00FDDAB1 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151321E7604BE00FDDAB1 /* HeaderView.m */; };
+		A15151431E7604BE00FDDAB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A15151341E7604BE00FDDAB1 /* Info.plist */; };
+		A15151441E7604BE00FDDAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15151351E7604BE00FDDAB1 /* main.m */; };
+		A1D8103C1E74A8BE001B85E5 /* libPods-Elilink Assignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE8E8E4B8F6CDAF434509A5 /* libPods-Elilink Assignment.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92F7999BF6955741B5EBD3C2 /* Pods-Elilink Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elilink Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elilink Assignment/Pods-Elilink Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		A151510F1E7604BE00FDDAB1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A15151101E7604BE00FDDAB1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A15151131E7604BE00FDDAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15151151E7604BE00FDDAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A15151171E7604BE00FDDAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A151511B1E7604BE00FDDAB1 /* CitiesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesController.h; sourceTree = "<group>"; };
+		A151511C1E7604BE00FDDAB1 /* CitiesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesController.m; sourceTree = "<group>"; };
+		A151511E1E7604BE00FDDAB1 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		A15151201E7604BE00FDDAB1 /* City+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+CoreDataClass.h"; sourceTree = "<group>"; };
+		A15151211E7604BE00FDDAB1 /* City+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+CoreDataClass.m"; sourceTree = "<group>"; };
+		A15151221E7604BE00FDDAB1 /* City+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "City+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A15151231E7604BE00FDDAB1 /* City+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "City+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A15151251E7604BE00FDDAB1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A15151261E7604BE00FDDAB1 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		A15151271E7604BE00FDDAB1 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A15151291E7604BE00FDDAB1 /* WeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherManager.h; sourceTree = "<group>"; };
+		A151512A1E7604BE00FDDAB1 /* WeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherManager.m; sourceTree = "<group>"; };
+		A151512D1E7604BE00FDDAB1 /* CityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityCell.h; sourceTree = "<group>"; };
+		A151512E1E7604BE00FDDAB1 /* CityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityCell.m; sourceTree = "<group>"; };
+		A151512F1E7604BE00FDDAB1 /* TableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellProtocol.h; sourceTree = "<group>"; };
+		A15151311E7604BE00FDDAB1 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		A15151321E7604BE00FDDAB1 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		A15151341E7604BE00FDDAB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15151351E7604BE00FDDAB1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A15151451E76057500FDDAB1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A1D80FDC1E747C84001B85E5 /* Elilink Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elilink Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1D80FE01E747C84001B85E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1D80FE21E747C84001B85E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A1D80FE31E747C84001B85E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1D80FE51E747C84001B85E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1D80FE61E747C84001B85E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1D80FE91E747C84001B85E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1D80FEB1E747C84001B85E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1D80FEE1E747C84001B85E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1D80FF01E747C84001B85E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D8103A1E74A8B9001B85E5 /* libMagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagicalRecord.a; path = "../../Library/Developer/Xcode/DerivedData/Elilink_Assignment-candpeifevxbcreomfbakvopztrm/Build/Products/Debug-iphoneos/MagicalRecord/libMagicalRecord.a"; sourceTree = "<group>"; };
+		CAE8E8E4B8F6CDAF434509A5 /* libPods-Elilink Assignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elilink Assignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C8CDB0247C6019CE7BE6A3 /* Pods-Elilink Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elilink Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elilink Assignment/Pods-Elilink Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,137 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D8103C1E74A8BE001B85E5 /* libPods-Elilink Assignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A151510E1E7604BE00FDDAB1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A151510F1E7604BE00FDDAB1 /* AppDelegate.h */,
+				A15151101E7604BE00FDDAB1 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A15151111E7604BE00FDDAB1 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				A15151121E7604BE00FDDAB1 /* Base */,
+				A15151191E7604BE00FDDAB1 /* Cities */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		A15151121E7604BE00FDDAB1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A15151131E7604BE00FDDAB1 /* Assets.xcassets */,
+				A15151141E7604BE00FDDAB1 /* LaunchScreen.storyboard */,
+				A15151161E7604BE00FDDAB1 /* Main.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A15151191E7604BE00FDDAB1 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				A151511A1E7604BE00FDDAB1 /* Controller */,
+				A151511D1E7604BE00FDDAB1 /* Model */,
+				A151512B1E7604BE00FDDAB1 /* View */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		A151511A1E7604BE00FDDAB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A151511B1E7604BE00FDDAB1 /* CitiesController.h */,
+				A151511C1E7604BE00FDDAB1 /* CitiesController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A151511D1E7604BE00FDDAB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A151511E1E7604BE00FDDAB1 /* Cities.json */,
+				A151511F1E7604BE00FDDAB1 /* Coredata Stack */,
+				A15151261E7604BE00FDDAB1 /* DataManager.h */,
+				A15151271E7604BE00FDDAB1 /* DataManager.m */,
+				A15151281E7604BE00FDDAB1 /* Weather */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A151511F1E7604BE00FDDAB1 /* Coredata Stack */ = {
+			isa = PBXGroup;
+			children = (
+				A15151201E7604BE00FDDAB1 /* City+CoreDataClass.h */,
+				A15151211E7604BE00FDDAB1 /* City+CoreDataClass.m */,
+				A15151221E7604BE00FDDAB1 /* City+CoreDataProperties.h */,
+				A15151231E7604BE00FDDAB1 /* City+CoreDataProperties.m */,
+				A15151241E7604BE00FDDAB1 /* Model.xcdatamodeld */,
+			);
+			path = "Coredata Stack";
+			sourceTree = "<group>";
+		};
+		A15151281E7604BE00FDDAB1 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A15151291E7604BE00FDDAB1 /* WeatherManager.h */,
+				A151512A1E7604BE00FDDAB1 /* WeatherManager.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A151512B1E7604BE00FDDAB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A151512C1E7604BE00FDDAB1 /* Cell */,
+				A15151301E7604BE00FDDAB1 /* Header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A151512C1E7604BE00FDDAB1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A151512D1E7604BE00FDDAB1 /* CityCell.h */,
+				A151512E1E7604BE00FDDAB1 /* CityCell.m */,
+				A151512F1E7604BE00FDDAB1 /* TableViewCellProtocol.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A15151301E7604BE00FDDAB1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A15151311E7604BE00FDDAB1 /* HeaderView.h */,
+				A15151321E7604BE00FDDAB1 /* HeaderView.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A15151331E7604BE00FDDAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15151341E7604BE00FDDAB1 /* Info.plist */,
+				A15151351E7604BE00FDDAB1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A1D80FD31E747C84001B85E5 = {
 			isa = PBXGroup;
 			children = (
 				A1D80FDE1E747C84001B85E5 /* Elilink Assignment */,
 				A1D80FDD1E747C84001B85E5 /* Products */,
+				A3B3AA69300DEC8CF4C094AE /* Pods */,
+				FC746D1E6591B48A958A6D94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,25 +208,30 @@
 		A1D80FDE1E747C84001B85E5 /* Elilink Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				A1D80FE21E747C84001B85E5 /* AppDelegate.h */,
-				A1D80FE31E747C84001B85E5 /* AppDelegate.m */,
-				A1D80FE51E747C84001B85E5 /* ViewController.h */,
-				A1D80FE61E747C84001B85E5 /* ViewController.m */,
-				A1D80FE81E747C84001B85E5 /* Main.storyboard */,
-				A1D80FEB1E747C84001B85E5 /* Assets.xcassets */,
-				A1D80FED1E747C84001B85E5 /* LaunchScreen.storyboard */,
-				A1D80FF01E747C84001B85E5 /* Info.plist */,
-				A1D80FDF1E747C84001B85E5 /* Supporting Files */,
+				A15151451E76057500FDDAB1 /* PrefixHeader.pch */,
+				A151510E1E7604BE00FDDAB1 /* App */,
+				A15151111E7604BE00FDDAB1 /* Stories */,
+				A15151331E7604BE00FDDAB1 /* Supporting Files */,
 			);
 			path = "Elilink Assignment";
 			sourceTree = "<group>";
 		};
-		A1D80FDF1E747C84001B85E5 /* Supporting Files */ = {
+		A3B3AA69300DEC8CF4C094AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1D80FE01E747C84001B85E5 /* main.m */,
+				D7C8CDB0247C6019CE7BE6A3 /* Pods-Elilink Assignment.debug.xcconfig */,
+				92F7999BF6955741B5EBD3C2 /* Pods-Elilink Assignment.release.xcconfig */,
 			);
-			name = "Supporting Files";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC746D1E6591B48A958A6D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8103A1E74A8B9001B85E5 /* libMagicalRecord.a */,
+				CAE8E8E4B8F6CDAF434509A5 /* libPods-Elilink Assignment.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D80FF31E747C84001B85E5 /* Build configuration list for PBXNativeTarget "Elilink Assignment" */;
 			buildPhases = (
+				3A9805258DEB7C6695743A68 /* [CP] Check Pods Manifest.lock */,
 				A1D80FD81E747C84001B85E5 /* Sources */,
 				A1D80FD91E747C84001B85E5 /* Frameworks */,
 				A1D80FDA1E747C84001B85E5 /* Resources */,
+				47BDDD4BF0A9A280A34B06FD /* [CP] Embed Pods Frameworks */,
+				DF4941142616D72D3E89F78D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +269,7 @@
 					A1D80FDB1E747C84001B85E5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Q5T7YHXSHE;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,42 +297,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D80FEF1E747C84001B85E5 /* LaunchScreen.storyboard in Resources */,
-				A1D80FEC1E747C84001B85E5 /* Assets.xcassets in Resources */,
-				A1D80FEA1E747C84001B85E5 /* Main.storyboard in Resources */,
+				A15151391E7604BE00FDDAB1 /* Main.storyboard in Resources */,
+				A15151431E7604BE00FDDAB1 /* Info.plist in Resources */,
+				A151513B1E7604BE00FDDAB1 /* Cities.json in Resources */,
+				A15151381E7604BE00FDDAB1 /* LaunchScreen.storyboard in Resources */,
+				A15151371E7604BE00FDDAB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A9805258DEB7C6695743A68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47BDDD4BF0A9A280A34B06FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elilink Assignment/Pods-Elilink Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4941142616D72D3E89F78D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elilink Assignment/Pods-Elilink Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1D80FD81E747C84001B85E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D80FE71E747C84001B85E5 /* ViewController.m in Sources */,
-				A1D80FE41E747C84001B85E5 /* AppDelegate.m in Sources */,
-				A1D80FE11E747C84001B85E5 /* main.m in Sources */,
+				A15151361E7604BE00FDDAB1 /* AppDelegate.m in Sources */,
+				A151513E1E7604BE00FDDAB1 /* Model.xcdatamodeld in Sources */,
+				A15151401E7604BE00FDDAB1 /* WeatherManager.m in Sources */,
+				A151513D1E7604BE00FDDAB1 /* City+CoreDataProperties.m in Sources */,
+				A15151441E7604BE00FDDAB1 /* main.m in Sources */,
+				A15151411E7604BE00FDDAB1 /* CityCell.m in Sources */,
+				A15151421E7604BE00FDDAB1 /* HeaderView.m in Sources */,
+				A151513A1E7604BE00FDDAB1 /* CitiesController.m in Sources */,
+				A151513F1E7604BE00FDDAB1 /* DataManager.m in Sources */,
+				A151513C1E7604BE00FDDAB1 /* City+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1D80FE81E747C84001B85E5 /* Main.storyboard */ = {
+		A15151141E7604BE00FDDAB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A1D80FE91E747C84001B85E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1D80FED1E747C84001B85E5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1D80FEE1E747C84001B85E5 /* Base */,
+				A15151151E7604BE00FDDAB1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A15151161E7604BE00FDDAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15151171E7604BE00FDDAB1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -269,25 +485,38 @@
 		};
 		A1D80FF41E747C84001B85E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C8CDB0247C6019CE7BE6A3 /* Pods-Elilink Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Q5T7YHXSHE;
-				INFOPLIST_FILE = "Elilink Assignment/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Elilink Assignment/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "DK-Studio.Elilink-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A1D80FF51E747C84001B85E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F7999BF6955741B5EBD3C2 /* Pods-Elilink Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Q5T7YHXSHE;
-				INFOPLIST_FILE = "Elilink Assignment/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Elilink Assignment/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "DK-Studio.Elilink-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -310,8 +539,22 @@
 				A1D80FF51E747C84001B85E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A15151241E7604BE00FDDAB1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A15151251E7604BE00FDDAB1 /* Model.xcdatamodel */,
+			);
+			currentVersion = A15151251E7604BE00FDDAB1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1D80FD41E747C84001B85E5 /* Project object */;
 }
